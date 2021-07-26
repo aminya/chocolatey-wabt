@@ -8,7 +8,6 @@
     <title>wabt</title>
     <authors>wabt</authors>
     <projectUrl>https://github.com/WebAssembly/wabt/</projectUrl>
-    <iconUrl>https://avatars.githubusercontent.com/u/11578470?s=200&v=4</iconUrl>
     <licenseUrl>https://github.com/WebAssembly/wabt/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/WebAssembly/wabt</projectSourceUrl>
