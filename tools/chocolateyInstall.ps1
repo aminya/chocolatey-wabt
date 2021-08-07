@@ -21,7 +21,7 @@ $installationDir = "$(join-path $installationDirDir "wabt-$version")"
 
 # download
 $url = "https://github.com/WebAssembly/wabt/releases/download/$version/$tarGzName"
-Invoke-WebRequest -Uri $url -OutFile $tarGzFile
+Get-WebFile -Url $url -FileName $tarGzFile
 
 # decompress tar.gz
 $packageArgs = @{
