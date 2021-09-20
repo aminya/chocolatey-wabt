@@ -2,10 +2,10 @@ $ErrorActionPreference = 'Stop';
 
 ## Handle version
 if ($env:chocolateyPackageVersion) {
-  $version=$env:chocolateyPackageVersion
+  $version = $env:chocolateyPackageVersion
 }
 else {
-  $version="1.0.23"
+  $version = "1.0.23"
 }
 
 # paths
