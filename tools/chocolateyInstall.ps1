@@ -22,6 +22,7 @@ $installationDir = "$(join-path $installationDirDir "wabt-$version")"
 # download
 $url = "https://github.com/WebAssembly/wabt/releases/download/$version/$tarGzName"
 Get-WebFile -Url $url -FileName $tarGzFile
+Get-ChecksumValid -File $tarGzFile -Checksum "3b8e2330e3d9e0f668f716063be4fffd47fbeafb61041a130c5478dae94a4d08" -ChecksumType "sha256"
 
 # decompress tar.gz
 $packageArgs = @{
